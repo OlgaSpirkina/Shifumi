@@ -1,0 +1,38 @@
+body{
+  background-color: #fdfaf5;
+}
+h3{
+  font-weight: bold;
+
+}
+div .far{
+  margin: 2rem;
+  /* display: inline-block; */
+  scale: 5;
+  background-color: #c1e5f2;
+  border-radius: 20%;
+}
+.far:hover{
+  -ms-transform: rotate(25deg); /* IE 9 */
+ transform: rotate(25deg);
+}
+#image,
+#randomChoice{
+  display: inline-block;
+  border: 2px solid #f2ebc1;
+  width: 10vw;
+  height: 10vh;
+  margin: 2rem;
+}
+
+#text_of_my_choice,
+#text_of_random_choice{
+  width: 10vw;
+  height: 5vh;
+  border: 1px solid #fdfaf5;
+  background-color: #fdfaf5;
+  display: inline-block;
+}
+#demo{
+  color: #fdfaf5;
+}

@@ -1,0 +1,20 @@
+.far,
+.far-2{
+  scale: 5;
+  background-color: yellow;
+  border-radius: 15%;
+}
+.far:hover{
+  -ms-transform: rotate(20deg); /* IE 9 */
+ transform: rotate(25deg);
+}
+.far-2{
+  background-color: lightblue;
+}
+#firstPlayer,
+#secondPlayer{
+  /* color: #fff; */
+}
+#content{
+  display: none;
+}
