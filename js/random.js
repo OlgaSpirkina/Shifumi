@@ -2,8 +2,6 @@ let textOfMyChoice = document.getElementById('text_of_my_choice');
 let myChoice = textOfMyChoice.value;
 let textOfRandomChoice = document.getElementById('text_of_random_choice');
 let pcChoice = textOfRandomChoice.value;
-let randomNumber = Math.floor(Math.random() * 3);
-// let iChooseScissors = document.getElementById('image');
 function firstChooseScissors(){
 let iChooseScissors = document.getElementById('image');
 iChooseScissors.innerHTML = '<i class="far fa-hand-scissors"></i>';
@@ -21,18 +19,22 @@ myChoice = "papier";
 }
 
 function getRndInteger() {
-  let randomNumber = Math.floor(Math.random() * 3);
+  randomNumber = Math.floor(Math.random() * 3);
+  console.log(randomNumber);
   let randomChoice = document.getElementById('randomChoice');
   document.getElementById('demo').innerHTML = randomNumber;
-  if(((randomNumber == "0") || (randomNumber == "1") || (randomNumber == "2")) && (myChoice = "ciseaux")){
+  if(randomNumber == 0){
     randomChoice.innerHTML = '<i class="far fa-hand-rock"></i>';
+    console.log(randomNumber);
     pcChoice = "pierre";
-  }else if(((randomNumber == "0") || (randomNumber == "1") || (randomNumber == "2")) && (myChoice = "pierre")){
+  }else if(randomNumber == 1){
     randomChoice.innerHTML = '<i class="far fa-hand-paper"></i>';
     pcChoice = "papier";
+    console.log(randomNumber);
   }else{
     randomChoice.innerHTML =  '<i class="far fa-hand-scissors"></i>';
     pcChoice = "ciseaux";
+    console.log(randomNumber);
   }
 }
 
