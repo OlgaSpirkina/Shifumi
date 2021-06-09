@@ -6,9 +6,7 @@ h3{
 
 }
 div .far{
-  margin: 2rem;
-  /* display: inline-block; */
-  scale: 5;
+  margin: 1rem;
   background-color: #c1e5f2;
   border-radius: 20%;
 }
@@ -20,15 +18,15 @@ div .far{
 #randomChoice{
   display: inline-block;
   border: 2px solid #f2ebc1;
-  width: 10vw;
-  height: 10vh;
-  margin: 2rem;
+  /* width: 5vw; */
+  height: 15vh;
+  margin: 1rem;
 }
 
 #text_of_my_choice,
 #text_of_random_choice{
   width: 10vw;
-  height: 5vh;
+  height: 15vh;
   border: 1px solid #fdfaf5;
   background-color: #fdfaf5;
   display: inline-block;
